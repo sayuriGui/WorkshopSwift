@@ -9,7 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, Tania")
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Tania Sayuri Guizado Hernández")
+        }
             .padding()
     }
 }

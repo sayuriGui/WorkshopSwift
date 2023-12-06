@@ -11,7 +11,7 @@ import SwiftUI
 struct pruebitaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            screenOne()
         }
     }
 }
