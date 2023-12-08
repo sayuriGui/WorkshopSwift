@@ -9,13 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Tania Sayuri Guizado Hernández")
+        TabView{
+            ProfileNavigation(profile: Person.myProfile)
+                .tag("profile")
+                .tabItem{
+                    Label("My Profile", systemImage: "person.circle")
+                }
+            MySocialMedia(socialMedia: SocialMedia.mySocialMedia)
+                .tag("Social Media")
+                .tabItem{
+                    Label("Social Media", systemImage: "network")
+                }
         }
-            .padding()
     }
 }
 
