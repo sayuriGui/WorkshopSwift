@@ -17,6 +17,7 @@
 		9B8694A92B23CEF700D4F16E /* ProfileNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8694A82B23CEF700D4F16E /* ProfileNavigation.swift */; };
 		9B8694AB2B23CF1900D4F16E /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8694AA2B23CF1900D4F16E /* ProjectDetailView.swift */; };
 		9B8694AD2B23D34800D4F16E /* PhotosCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8694AC2B23D34800D4F16E /* PhotosCarousel.swift */; };
+		9B8694AF2B23DEB900D4F16E /* ProjectsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8694AE2B23DEB900D4F16E /* ProjectsList.swift */; };
 		9BDDF6FB2B1FE0EC00835DE0 /* pruebitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDF6FA2B1FE0EC00835DE0 /* pruebitaApp.swift */; };
 		9BDDF6FD2B1FE0EC00835DE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDF6FC2B1FE0EC00835DE0 /* ContentView.swift */; };
 		9BDDF6FF2B1FE0EE00835DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDF6FE2B1FE0EE00835DE0 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		9B8694A82B23CEF700D4F16E /* ProfileNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNavigation.swift; sourceTree = "<group>"; };
 		9B8694AA2B23CF1900D4F16E /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
 		9B8694AC2B23D34800D4F16E /* PhotosCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCarousel.swift; sourceTree = "<group>"; };
+		9B8694AE2B23DEB900D4F16E /* ProjectsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsList.swift; sourceTree = "<group>"; };
 		9BDDF6F72B1FE0EC00835DE0 /* pruebita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pruebita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDDF6FA2B1FE0EC00835DE0 /* pruebitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebitaApp.swift; sourceTree = "<group>"; };
 		9BDDF6FC2B1FE0EC00835DE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				9B8694A82B23CEF700D4F16E /* ProfileNavigation.swift */,
 				9B8694AA2B23CF1900D4F16E /* ProjectDetailView.swift */,
 				9B8694AC2B23D34800D4F16E /* PhotosCarousel.swift */,
+				9B8694AE2B23DEB900D4F16E /* ProjectsList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				9B81ED692B212EAB00490C0A /* Person.swift in Sources */,
 				9B81ED6D2B21303500490C0A /* SocialMedia.swift in Sources */,
 				9B8694AB2B23CF1900D4F16E /* ProjectDetailView.swift in Sources */,
+				9B8694AF2B23DEB900D4F16E /* ProjectsList.swift in Sources */,
 				9B8694AD2B23D34800D4F16E /* PhotosCarousel.swift in Sources */,
 				9B8694A92B23CEF700D4F16E /* ProfileNavigation.swift in Sources */,
 				9B81ED6F2B21392900490C0A /* PersonProfilePicture.swift in Sources */,

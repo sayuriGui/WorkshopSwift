@@ -52,7 +52,7 @@ struct ProfileDescription: View {
                 .font(.headline)
         
             PhotosCarousel(photosNames: profile.photos)
-                .frame(height: 400)
+                .frame(height: 200)
         }
     }
 }
